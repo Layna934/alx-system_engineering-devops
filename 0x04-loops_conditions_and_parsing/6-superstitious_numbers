@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+#uses case statement and displays number 1-20 with a few different statements
+
+c=1
+while [ $c -lt 21 ]
+do
+    case $c in
+
+        4)
+	    echo $c
+	    echo "bad luck from China"
+	    ;;
+	
+	9)
+	    echo $c
+	    echo "bad luck from Japan"
+	    ;;
+	
+	17)
+	    echo $c
+	    echo "bad luck from Italy"
+	    ;;
+
+	*)
+	    echo $c
+	    ;;
+    esac
+
+    ((c++))
+done
