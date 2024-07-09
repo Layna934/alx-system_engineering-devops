@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#displays a text 10 times and Hi once in between
+
+print="Best School"
+c=0
+
+while [ $c -lt 11 ]
+do
+	if [ $c = 9 ]
+	then
+		echo "Hi"
+	else
+		echo "$print"
+	fi
+	((c+=1))
+done
