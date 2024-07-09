@@ -10,7 +10,7 @@ do
     elif [ $((c%3)) = 0 ]
     then
         echo "Fizz"
-    elif [ $((5)) = 0 ]
+    elif [ $((c%5)) = 0 ]
     then
         echo "Buzz"
     else
