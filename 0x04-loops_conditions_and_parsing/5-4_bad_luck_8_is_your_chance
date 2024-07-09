@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #iterates through a loop and displays a different text for i4 and for i8 and the same text for others
 
-print="Best school"
+print="Best School"
 c=0
 
 while [ $c -lt 10 ]
