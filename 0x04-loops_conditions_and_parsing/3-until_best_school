@@ -1,0 +1,11 @@
+#/usr/bin/env bash
+#displays 'Best School' 10 times
+
+print="Best School"
+c=10
+
+until [ $c -lt 1 ]
+	do
+		echo "$print"
+		((c-=1))
+done
